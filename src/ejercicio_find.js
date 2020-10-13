@@ -18,3 +18,6 @@ busqueda de canciones que no sean de genero pop y que hayansido lanzadas despues
 db.musica.find( { $or: [ { "añosalida": { $lt: 1985 } }, { "añosalida": 2017 } ] } ) /*Esta es una busqueda
 de varios query selectores usando un query logico or. Realiza la busqueda de canciones que 
 fueron lanzadas antes de 1985 y en 2017 */ 
+
+/*Escribi todo este codigo en este archivo js y despues vi como respondian las lineas
+ en el powershell, he adjuntado un pdf con los resultados */
