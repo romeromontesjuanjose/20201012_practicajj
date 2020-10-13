@@ -1,0 +1,2 @@
+El único problema al que me enfrente es que quise realizar el codigo **and** de forma implicita pero la powershell no respondía.
+Este era el código: db.musica.find( { "genero": { $ne:"pop", $gt:2000} })
